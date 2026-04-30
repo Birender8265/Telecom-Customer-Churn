@@ -7,6 +7,7 @@ This project performs a comprehensive Exploratory Data Analysis (EDA) on the Tel
 
 By analysing the dataset across multiple dimensions — tenure, monthly charges, service subscriptions, and demographic attributes — this project produces a clean, enriched analytical view that enables multi-dimensional exploration of why customers leave, who is most at risk, and how much revenue the business stands to lose or recover through smarter retention strategies.
 
+
 ## 🎯 Business Problem
 
 A telecommunications company is experiencing significant customer churn — customers cancelling their subscriptions every month. The business needs to understand:
@@ -140,14 +141,14 @@ telco-churn-analysis/
 
 ---
 
-## 🚀 How to Run
 
+📬 Contact Feel free to connect or reach out:
 
-# Clone the repo
-git clone https://github.com/Birender8265/telco-churn-analysis.git
+GitHub: https://github.com/Birender8265
 
-cd telco-churn-analysis
+LinkedIn: https://www.linkedin.com/in/birendra-singh-28183339b
 
+Email: birendersingh9917@gmail.com
 
 
 ---
@@ -163,8 +164,3 @@ jupyter>=1.0
 ```
 
 ---
-
-## 📬 Contact
-
-Built as part of an industry-standard end-to-end data analytics portfolio project.  
-Feel free to fork, star ⭐, or raise an issue!
