@@ -1,12 +1,9 @@
 # 📊 Telco Customer Churn Analysis
 
 
-Project Overview
 This project performs a comprehensive Exploratory Data Analysis (EDA) on the Telco Customer Churn Dataset — a widely used, real-world telecom industry dataset that captures detailed service, contract, and billing information for over 7,000 customers. The goal is to uncover meaningful patterns and insights about customer churn behaviour, high-risk customer segments, the impact of contract types and billing methods, and the financial cost of customer loss.
 
 By analysing the dataset across multiple dimensions — tenure, monthly charges, service subscriptions, and demographic attributes — this project produces a clean, enriched analytical view that enables multi-dimensional exploration of why customers leave, who is most at risk, and how much revenue the business stands to lose or recover through smarter retention strategies.
-
----
 
 ## 🎯 Business Problem
 
@@ -23,7 +20,7 @@ A telecommunications company is experiencing significant customer churn — cust
 
 ## 📁 Project Structure
 
-
+```
 telco-churn-analysis/
 │
 ├── data/
@@ -47,7 +44,7 @@ telco-churn-analysis/
 │   └── Telco_Churn_Portfolio.pptx        # 9-slide stakeholder presentation
 │
 └── README.md
-
+```
 
 ---
 
@@ -67,7 +64,7 @@ telco-churn-analysis/
 
 ## 🛠️ Workflow
 
-
+```
 1. Import Data         → pd.read_csv, data.head(), data.shape
 2. Explore Structure   → dtypes, value_counts, group comparisons
 3. Clean Data          → pd.to_numeric, dropna, IQR outlier check
@@ -77,7 +74,7 @@ telco-churn-analysis/
 7. Correlations        → Pearson matrix, heatmap
 8. Business Insights   → Segment churn rates, horizontal bar chart
 9. ROI Model           → Retention scenario analysis, unit economics
-
+```
 
 ---
 
@@ -94,8 +91,6 @@ telco-churn-analysis/
 | Senior citizen | **41.7%** | 🔴 High |
 | One-year contract | 11.3% | 🟡 Medium |
 | Two-year contract | **2.8%** | 🟢 Low |
-
-
 
 ### Numeric Correlations with Churn
 
@@ -143,12 +138,11 @@ telco-churn-analysis/
 
 ---
 
-
 ## 🚀 How to Run
 
-
+```bash
 # Clone the repo
-git clone https://github.com/birender8265/telco-churn-analysis.git
+git clone https://github.com/Birender8265/telco-churn-analysis.git
 cd telco-churn-analysis
 
 # Install dependencies
