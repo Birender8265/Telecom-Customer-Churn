@@ -1,6 +1,8 @@
 # 📊 Telco Customer Churn Analysis
 
 
+📌 Project Overview
+
 This project performs a comprehensive Exploratory Data Analysis (EDA) on the Telco Customer Churn Dataset — a widely used, real-world telecom industry dataset that captures detailed service, contract, and billing information for over 7,000 customers. The goal is to uncover meaningful patterns and insights about customer churn behaviour, high-risk customer segments, the impact of contract types and billing methods, and the financial cost of customer loss.
 
 By analysing the dataset across multiple dimensions — tenure, monthly charges, service subscriptions, and demographic attributes — this project produces a clean, enriched analytical view that enables multi-dimensional exploration of why customers leave, who is most at risk, and how much revenue the business stands to lose or recover through smarter retention strategies.
@@ -140,17 +142,13 @@ telco-churn-analysis/
 
 ## 🚀 How to Run
 
-```bash
+
 # Clone the repo
 git clone https://github.com/Birender8265/telco-churn-analysis.git
+
 cd telco-churn-analysis
 
-# Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
 
-# Launch notebook
-jupyter notebook notebooks/Telco_Churn_EDA_Annotated.ipynb
-```
 
 ---
 
